@@ -1,0 +1,208 @@
+/*******configurações padrões da página*******/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background-color: #4ec7d8;
+}
+
+/*****************Cabeçalho*********************/
+
+#cabecalho{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 30px;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+ 	right: 0;
+ 	z-index: 1;
+}
+
+#cabecalho strong{
+	font-size: 2.5em;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+}
+/*****************Fim do cabeçalho*********************/
+
+/*****************Barra de navegação*********************/
+#navbar{
+	display: flex;
+	gap: 6em;
+}
+
+#navbar a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000;
+	border-bottom: 0.15em solid;
+}
+
+#navbar a:hover{
+	color: #E6E6E6;
+	transition: 0.2s;
+}
+/*****************Fim da barra de navegação*********************/
+
+/*****************Sobre*********************/
+
+#sobre{
+	padding-top: 70px;
+	padding-left: 15px;
+	background: url(../imagens/bg1.png) repeat-y;
+	background-size: 100%;
+	background-position: fixed;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 190px;	
+}
+
+#sobre div{
+	width: 400px;
+	float: left;
+	margin-top: 75px;
+}
+
+#sobre h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 3.5em;
+	font-weight: 700;
+	line-height: 1em;
+	color: #FFFFFF;
+}
+
+#sobre p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+img{
+	width: 320px;
+	float: left;
+	margin-top: 55px;
+}
+
+/*****************Fim do sobre*********************/
+
+/*****************Habilidades*********************/
+
+#habilidades{
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background: #FFFFFF;
+}
+
+#habilidades h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #dee64c;
+}
+
+#informacoes{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 20px;
+}
+
+#informacoes .caixa{
+	width: 18em;
+	height: 18em;
+	background-color: #dee64c;
+	border-radius: 18em;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#informacoes .caixa img{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+#informacoes .texto{
+	padding: 10px 30px;
+	width: 600px;
+	height: 300px;
+	flex-grow: 2;
+}
+
+#informacoes .texto h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #dee64c;
+}
+
+#informacoes .texto p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #4ec7d8;
+	text-align: justify;
+}
+
+
+/*****************Fim de habilidades*********************/
+
+/*****************Portifólio*********************/
+
+#portifolio{
+	height: 600px;
+	padding: 0 20px;
+}
+
+#portifolio h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+#portifolio .caixa{
+	width: 400px;
+	height: 300px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/**************/
+ 
+ #contato{
+ 	background: #333338;
+ 	height: 300px;
+ }
+
+ #rodape{
+ 	background: #111;
+ 	height: 50px;
+ }
